@@ -1,0 +1,82 @@
+body{
+    background-color:aliceblue;
+    margin: 0px;
+}
+
+.menu{
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.a1{
+    
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.a2{
+    color: white;
+    margin-top: 1%;
+}
+
+.a3{
+    color: white;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+}
+
+.bg p{
+    margin-top: -20%;
+    margin-left: 34%;
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+h3{
+    color: white;
+    font-style: oblique;
+    margin-left: 15%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.grid img:hover{
+    opacity: 0.5;
+}
+
+.origami{
+    border-radius: 50px;
+    background-color: white;
+    width: 350px;
+    margin:25px;
+}
+
+.origami:hover{
+    transform: scale(1.1);
+}
+
